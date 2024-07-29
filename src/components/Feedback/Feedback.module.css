@@ -1,0 +1,14 @@
+.feedbackBlock {
+  & p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: var(--font-small);
+    font-weight: var(--font-weight-medium);
+  }
+}
+
+p.feedbackPositive,
+p.feedbackTotal {
+  font-size: var(--font-between-small-and-base);
+  font-weight: var(--font-weight-medium);
+}

@@ -1,0 +1,5 @@
+.message {
+  text-align: left;
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-medium);
+}

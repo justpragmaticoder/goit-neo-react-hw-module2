@@ -1,0 +1,35 @@
+.buttonsBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 20px;
+  margin-right: 20px;
+  min-width: 84px;
+  border-radius: var(--border-radius-small);
+}
+
+.voteButton {
+  border: 2px solid var(--vote-button-border);
+  background-color: var(--vote-button-bg);
+}
+
+.voteButton:hover,
+.voteButton:focus {
+  background-color: var(--vote-button-hover-bg);
+  border-color: var(--vote-button-hover-border);
+}
+
+.resetButton {
+  border: 2px solid var(--reset-button-border);
+  background-color: var(--reset-button-bg);
+}
+
+.resetButton:hover,
+.resetButton:focus {
+  background-color: var(--reset-button-hover-bg);
+  border-color: var(--reset-button-hover-border);
+}
